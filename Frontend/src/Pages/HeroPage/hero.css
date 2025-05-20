@@ -1,0 +1,40 @@
+.hero{
+    background-image: url("../../assets/hero-image-size-1-2.png") ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-hero{
+    /* background-color: black; */
+    width: 70%;
+    height: 500px;
+}
+.hero-text{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   p{
+    font-size: 25px;
+    font-style: italic;
+   }
+   h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   span{
+    font-size: 20px;
+   }
+}
+.hero-btn{
+        width: 200px;
+        height: 50px;
+        background-color:black;
+        color: white;
+        transition: all 0.3s ease;
+}
+.hero-btn:hover{
+    background-color: white;
+    color: black;
+}
